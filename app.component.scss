@@ -1,0 +1,279 @@
+.homePage {
+  width: 90%;
+  padding-left: 100px;
+}
+.main
+{
+  padding: 120px;
+}
+.header1{
+  display: flex;
+  position: fixed;
+  padding-right: 30px;
+  
+  width:100%;
+  background-color: white;
+  border-radius: 1px;;
+}
+.menuList{
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+  
+  .login{
+    
+      color: black;
+      font-size:13px;
+      padding: 4px 10px;
+      
+      border-radius: 20px;
+      cursor: pointer;
+    
+  }
+  .pricing
+  {
+
+ background-color: #f47a23;
+      color: white;
+      font-size:13px;
+      padding: 2px 15px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      
+     }
+     .pricing1
+     {
+   
+    background-color:black;
+         color: white;
+         font-size:13px;
+         padding: 2px 26px;
+         border: none;
+         border-radius: 20px;
+         cursor: pointer;
+         
+        }
+     .whyaapi
+     {
+      
+      
+      font-size:18px;
+      padding: 1px 23px;
+      border: 2px solid #f47a23;
+      color: #f47a23;
+      border-radius: 35px;
+      cursor: pointer;
+     }
+     .button
+     {
+       float:left;
+     }
+.some-page-wrapper
+{
+  color: #f47a23;
+}
+     .splitcolumn2
+     {
+       background-color: #f8f9fa;
+     }
+     .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 80%;
+      flex: 1;
+    }
+
+    
+.text-column {
+  
+  height: 100px;
+}
+
+.image-column {
+  width: 776;
+  height: 436;
+  text-align: center;
+  
+}
+.aapicenter3{
+  background-color: white;
+    padding: 50px ;
+    padding-bottom: 50px;
+
+    flex: 50%;
+    text-align: center;
+
+}
+.step14
+{
+  margin:20px 20px 20px;
+  padding-top:70px;
+  
+
+}
+.step25
+{
+  margin:20px;
+  padding-top:70px;
+  
+
+}
+.firstcolumn
+{
+  
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 210px;
+}
+.firstcolumn1
+{
+  padding:70px;
+  font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    max-width: 240px;
+    height: 100px;
+    margin: 0 -5px;
+    gap: 30px 20px;
+    display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.column48
+{
+  
+  display: flex;
+    
+}
+.column39
+{  
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  display: flex;
+  height:50px;
+  width: 900px;
+  
+}
+.single{
+  padding-top: 40px;
+}
+.column61img
+{
+  padding-top: 180px;
+  text-align: center;
+  display: flex;
+ 
+}
+.first-column2
+{
+  margin-bottom: 20px;
+  padding-top: 200px;
+  padding-left: 150px;
+  text-align: center;
+}
+.first-column3
+{
+  padding-left: 150px;
+  width: 767px;
+  height: 310;
+}
+.first-column4
+{
+padding-top:100px;
+padding-left:100px;
+float:right;
+}
+.finalform
+{ width: 1490px;
+  height: 540px;
+  background-image: url("C:/Users/USER/webpage/src/assets/aapi_background_mobile3.jpg");
+  padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 60px;
+    
+}
+
+.backgroundtext
+{padding-bottom: 200px;
+  color:white;
+  background-color: #2b323d;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  color:#17a2b8;
+  
+}
+
+::placeholder {
+  color:#17a2b8;
+  opacity: 1; /* Firefox */
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  color:#17a2b8;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color:black;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+    color:#17a2b8;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
